@@ -1,0 +1,21 @@
+.login-container button {
+	background-color: #d1410c;
+	color: #eeedf2;
+}
+
+.login-container {
+	background-color: #1e0a3c;
+	color: #fff
+}
+
+.close-icon {
+	position: absolute;
+	right: 13px;
+	top: 25px;
+}
+
+.google-api {
+	position: absolute;
+	left: 100px;
+	bottom: 25px;
+}

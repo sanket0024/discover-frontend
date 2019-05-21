@@ -1,0 +1,86 @@
+.cards-events {
+	position: absolute;
+	top: 100%;
+}
+
+.random-text1 {
+	font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+	font-size: 50px;
+	color: #1e0a3c;
+	font-weight: bold;
+}
+
+.random-text2 {
+	font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+	font-size: 55px;
+	color: #1e0a3c;
+	font-weight: bold;
+}
+
+.random-text3 {
+	font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+	font-size: 60px;
+	color: #1e0a3c;
+	font-weight: bold;
+}
+
+.random-text4 {
+	font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+	font-size: 30px;
+	color: #1e0a3c;
+	font-weight: bold;
+}
+
+.random-text5 {
+	font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+	font-size: 70px;
+	color: #d1410c;
+	font-weight: bold;
+}
+
+.card {
+	cursor: pointer;
+	position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+}
+
+.card:hover > .card-footer {
+	background-color: #1e0a3c;
+}
+
+.card:hover > .card-body {
+	background-color: #d1410c; 
+}
+
+.card-footer {
+	border: 0px;
+	justify-content: center;
+    align-content: center;
+    align-items: center;
+	background-color: #795ca3;
+	color: #fff;
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.card-img-top {
+	width: 100%;
+    height: 50%;
+    border-top-left-radius: calc(.25rem - 1px);
+	border-top-right-radius: calc(.25rem - 1px);
+}
+
+.card-body {
+	-ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+	padding: 1.25rem;
+	background-color: #e6815d;
+	color: #fff;
+}

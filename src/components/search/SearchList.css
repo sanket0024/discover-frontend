@@ -1,0 +1,73 @@
+
+.eds-field-styled__input {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #a9a8b3;
+    text-decoration-color: #a9a8b3;
+}
+
+.eds-field-styled__input {
+    font-size: 28px;
+    font-size: 1.75rem;
+    line-height: 36px;
+    line-height: 2.25rem;
+    letter-spacing: .75px;
+    margin-right: -.75px;
+    font-weight: 700;
+}
+
+.eds-field-styled__input {
+    background: none;
+    border: none;
+    color: #39364f;
+    outline: none;
+    padding: 12px;
+    -webkit-transition: padding .16s cubic-bezier(.4,0,.3,1),color .4s cubic-bezier(.4,0,.3,1);
+    transition: padding .16s cubic-bezier(.4,0,.3,1),color .4s cubic-bezier(.4,0,.3,1)
+}
+
+.nav-margin {
+    margin-bottom: 100px;
+}
+
+.btn-custom {
+    transform: translateZ(0);
+    position: relative;
+    height: 44px;
+    padding: 0 30px 1px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: .2px;
+    color: white;
+    fill: #39364f;
+    background: transparent;
+    border: 2px solid #a9a8b3;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition: all .4s cubic-bezier(.4,0,.3,1);
+    transition: all .4s cubic-bezier(.4,0,.3,1);
+    border-color: #d1410c;
+    border-color: #d1410c;
+    background-color: #d1410c;
+    background-color: #d1410c;
+    font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+}
+
+.search-bg {
+    background-color: #fff;
+}
+
+.search-item-text {
+    font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+    line-height: 1.75rem;
+    letter-spacing: .25px;
+    margin-right: -.25px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #6f7287;
+}
+

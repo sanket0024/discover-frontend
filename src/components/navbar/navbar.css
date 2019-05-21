@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+@import url(https://fonts.googleapis.com/css?family=EB+Garamond|Cardo:400italic);
+
+nav {
+	height: 59px;
+    border-bottom: 1px solid #eeedf2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    letter-spacing: normal;
+    font-size: 14px;
+	background-color: #fff;
+}
+
+.global-navbar {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+	flex-basis: 0%;
+	-webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+	display: -ms-flexbox;
+	display: inline-block;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.brand-name {
+	font-family: "Seaweed Script";
+	font-size: 30px;
+	margin: 0%;
+	transform: rotate(-4deg);
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+	height: 59px;
+	color: #d1410c;
+	font-weight: bold;
+}
+
+.nav-links {
+	font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+	letter-spacing: 0.1em;
+	font-size: 16px;
+	display: block;
+	font-weight: bold;
+	color: #6f7287;
+	cursor: pointer;
+}
+
+a, a:hover {
+	color: #6f7287;
+	cursor: pointer;
+}
+
+
+.dropdown-menu {
+	visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+	margin-top: 0px;
+}
+
+.dropdown-menu li {
+	color: #6f7287;
+}
+
+.dropdown-menu li:hover {
+	background-color: #d1410c;
+	color: #fff;
+}
+
+.search-button {
+	color: #d1410c;
+	cursor: pointer;
+}
+
+.user-search {
+	border-radius: 5px;
+    outline-width: 0;
+}
+
+.navbar-toggler {
+	background-color: #6f7287;
+}
+
+span.navbar-toggler-icon {
+	color: black;
+}
+
+.navbar .show {
+	color: white;
+	background-color: #fff;
+}
+
+.link {
+	text-decoration: none !important;
+}

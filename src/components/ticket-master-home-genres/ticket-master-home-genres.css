@@ -1,0 +1,35 @@
+.genres-section {
+	color: #fff;
+	background-color: #1e0a3c;
+	font-family: Neue Plak,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
+}
+
+.genres-section img {
+	margin: 15px;
+	cursor: pointer;
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+}
+
+.genres-section h1 {
+	font-size: 60px;
+	margin-bottom: 40px;
+}
+
+.centered {
+	color: #fff;
+	position: relative;
+	top: -43%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+img:hover + .centered, .centered:hover {
+	background-color: #d1410c;
+	
+}

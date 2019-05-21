@@ -1,0 +1,20 @@
+#adminTable {
+  background-color: #f9fbfc;
+  border: 0.7px solid #eff1f2;
+  position: relative;
+  top: 100px;
+}
+
+button {
+  background-color: #f9fbfc;
+}
+
+.admin-panel {
+	position: relative;
+	top: 80px;
+	background-color: #1e0a3c;
+	height: 50px;
+	color: #d1410c;
+	padding-top: 8px;
+	font-weight: bold;
+}
