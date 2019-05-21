@@ -1,6 +1,7 @@
 const BASEURL = "https://app.ticketmaster.com/discovery/v2/"
 const APIKEY = "cRA6KCAGT3bne4RfqQ9l5d41GYavzKMq";
 const BASEURL_LOCAL = "https://discover-b.herokuapp.com";
+// const BASEURL_LOCAL = "localhost:8080";
 // http://app.ticketmaster.com/discovery/v1/events.json?keyword=Queen&apikey=veGTetKAnDL0ypTGIn2bfg1ZoZNLeaiw local api key
 // heroku api key:: cRA6KCAGT3bne4RfqQ9l5d41GYavzKMq
 /**

@@ -33,3 +33,7 @@ img:hover + .centered, .centered:hover {
 	background-color: #d1410c;
 	
 }
+
+a:-webkit-any-link {
+	text-decoration: none;
+}

@@ -5,10 +5,7 @@ import {
 	currentUser,
 	userSingIn,
 	userRegister,
-	userSignOut,
-	userUpdate,
-	findUserById,
-	searchUsers
+	userSignOut
 } from "../../actions/actions";
 import Navbar from '../../components/navbar/navbar';
 

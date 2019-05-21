@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "./ticket-master-home-events.css";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class TicketMasterHomeEvents extends Component {
 
